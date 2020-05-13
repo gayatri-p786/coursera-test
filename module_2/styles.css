@@ -1,45 +1,16 @@
 *{
     box-sizing: border-box;
     color:black;
-    margin:10px;
 }
 body{
     font-family: cursive;
-    margin:30px;
+    margin:15px;
 }
 h1{
     
     text-align: center;
     margin-bottom: 50px;
     font-size: 175%;
-}
-.row {
-  width: 100%;
-  #p1{
-    background-color: palevioletred;
-}
-#p2
-{
-    background-color: brown;
-    color: white;
-}
-#p3{
-    background-color: wheat;
-}
-
-#p3, #p2,#p1{
-    width:80px;
-    height:25px;
-    margin:0px;
-    padding-bottom:5px;
-    position:absolute;
-    right:0px;
-    top:0px;        
-    border-left: 2px solid black;
-    border-bottom: 2px solid black;        
-    text-align: center;
-    font-size: 125%;
-}
 }
 
 @media (min-width: 992px){
@@ -57,26 +28,28 @@ h1{
     }
 
     #p3, #p2,#p1{
-        width:80px;
-        height:25px;
+        width:150px;
+        height:30px;
         margin:0px;
         padding-bottom:4px;
         position:absolute;
         right:0px;
         top:0px;        
-        border-left: 2px solid black;
-        border-bottom: 2px solid black;        
+        border-left: 3px solid black;
+        border-bottom: 3px solid black;        
         text-align: center;
         font-size: 125%;
+        font-weight: bold;
     }
     .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
               
         position:relative;
-        border: 2px solid black;
+        border: 3px solid black;
         text-align: justify;
         background-color: grey;
-        display: inline-block;
-         
+        float: left;  
+        margin:10px; 
+        padding:5px; 
       }
     .col-lg-1 {
         width: 8.33%;
@@ -88,7 +61,7 @@ h1{
         width: 25%;
       }
       .col-lg-4 {
-        width: 33.33%;
+        width: 31.2%;
       }
       .col-lg-5 {
         width: 41.66%;
@@ -128,23 +101,26 @@ h1{
         background-color: wheat;
     }
     #p3, #p2, #p1{
-        width:80px;
+        width:150px;
+        height:30px;
         padding-bottom: 5px;
         margin:0px;
         position:absolute;
         right:0px;
         top:0px;
-        border-left: 2px solid black;
-        border-bottom: 2px solid black;
+        border-left: 3px solid black;
+        border-bottom: 3px solid black;
         text-align: center;
+        font-weight: bold;
     }
     .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
-        float: left;
+        float:left;
         position: relative;
-        border: 2px solid black;
+        border: 3px solid black;
         text-align: justify;
-        margin:5px;
+        margin:10px;
         background-color: grey;
+        padding:5px;
       }
     .col-md-1 {
         width: 8.33%;
@@ -159,7 +135,7 @@ h1{
         width: 33.33%;
       }
       .col-md-5 {
-        width: 41.66%;
+        width: 47%;
       }
       .col-md-6 {
         width: 50%;
@@ -180,7 +156,45 @@ h1{
         width: 91.66%;
       }
       .col-md-12 {
-        width: 100%;
+        width: 96.5%;
       }
 }
+
+@media (max-width:767px){
+  .row{
+    width:98%;
+    position:relative;
+    border: 3px solid black;
+    text-align: justify;
+    background-color: grey;
+    float:left;
+    margin:10px;
+    padding:5px;
+    }
+    #p1{
+      background-color: palevioletred;
+  }
+  #p2
+  {
+      background-color: brown;
+      color: white;
+  }
+  #p3{
+      background-color: wheat;
+  }
+  #p3, #p2, #p1{
+      width:150px;
+      height:30px;
+      padding-bottom: 5px;
+      margin:0px;
+      position:absolute;
+      right:0px;
+      top:0px;
+      border-left: 3px solid black;
+      border-bottom: 3px solid black;
+      text-align: center;
+      font-weight: bold;
+    }
+}
+
 
