@@ -1,0 +1,63 @@
+body {
+    font-size: 16px;
+    color:black;
+    font-family: 'Balsamiq Sans', cursive;
+  }
+  
+/**HEADER**/
+#header-nav{
+    background-color: gray;
+    border-radius: 0;
+    border: 0;
+  }
+ .navbar-default .navbar-brand{
+     color:black;
+ }
+
+  #nav-list a{
+    color:black;
+    border: 2px solid black;
+  }
+ #nav-list #a2{
+     border-top: 0;
+     border-bottom: 0;
+ }
+  #nav-list a:hover{
+    background: #E7E7E7;
+  }
+  
+  .navbar-brand{/*Food, LLC*/
+    font-size: 2.5em;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px white;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+    text-align: left;
+  }
+  .navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+    border: 2px solid black;
+  }
+  .navbar-header button.navbar-toggle{
+    clear:both;
+  }
+  #main-content h1{
+      font-weight: bold;
+  }
+  .item-description{
+      margin-bottom: 20px;
+  }
+  .item-description h3{
+      text-align: center;
+      font-size: 2em;
+      font-weight: bold;
+  }
+  .item-description p{
+      text-align: justify;
+  }
+  #chicken, #beef, #sushi{
+      width:100%;
+      padding: 15px;
+      background-color: gray;
+  }
+  
